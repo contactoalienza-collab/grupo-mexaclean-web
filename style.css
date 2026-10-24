@@ -1,0 +1,123 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243c;line-height:1.55;background:#fff}a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 24px}.top{background:#071e3e;color:white;position:sticky;top:0;z-index:10;box-shadow:0 3px 14px #0016}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:78px}.brand{font-weight:800;letter-spacing:.7px;font-size:19px}.brand small{display:block;font-size:10px;letter-spacing:2px;color:#b4c9e5}.links{display:flex;gap:18px;align-items:center;flex-wrap:wrap}.links a:hover{color:#85baff}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:8px;background:#1264b6;color:white;font-weight:700;border:1px solid #1264b6;gap:8px}.btn.secondary{background:transparent;border-color:#9ec2ef;color:#fff}.btn.green{background:#078b54;border-color:#078b54}.hero{background:#0a254b;color:white}.hero-grid{display:grid;grid-template-columns:43% 57%;align-items:center;min-height:540px}.hero-copy{padding:52px 28px 52px 0}.eyebrow{text-transform:uppercase;letter-spacing:2px;color:#8abfff;font-size:12px;font-weight:800}h1{font-size:clamp(34px,4vw,55px);line-height:1.1;margin:16px 0 18px}h2{font-size:32px;line-height:1.2;margin:0 0 14px}.hero p{font-size:18px;color:#d8e6f7}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.hero img{width:100%;height:540px;object-fit:cover;object-position:center}.section{padding:70px 0}.muted{color:#60728a}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:30px}.card{border:1px solid #e1e8f1;border-radius:12px;overflow:hidden;box-shadow:0 5px 20px #12253d0a;background:#fff}.card img{width:100%;height:155px;object-fit:cover}.card .inside{padding:17px}.card h3{margin:0 0 8px;font-size:18px}.card p{font-size:14px;color:#617087}.card a{color:#0758a5;font-weight:700}.pale{background:#f3f7fb}.split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}.split img{width:100%;border-radius:14px}.contact{background:#071e3e;color:#fff}.contact a{color:#a6d5ff}.social{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}.social a{background:#fff;color:#0b315f;border-radius:9px;padding:10px 15px;font-weight:bold}.foot{background:#05152d;color:#c3d3e9;padding:22px 0;font-size:13px}.pagehead{background:#0b2a56;color:#fff;padding:60px 0}.detail{max-width:780px;font-size:18px}.video{width:100%;max-width:780px;border-radius:12px;background:black}ul{padding-left:20px}li{margin-bottom:8px}@media(max-width:850px){.nav{align-items:flex-start;padding-top:15px;padding-bottom:15px;flex-direction:column}.links{font-size:13px;gap:12px}.hero-grid{grid-template-columns:1fr}.hero img{height:310px;grid-row:1}.hero-copy{padding:30px 0 44px}.cards{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}}@media(max-width:520px){.cards{grid-template-columns:1fr}.hero img{height:265px}h1{font-size:34px}.section{padding:48px 0}.links{gap:10px}.brand{font-size:17px}}
+/* Video corporativo vertical: proporción original 9:16 */
+.video-section{background:#f8fafc}.video-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,390px);align-items:center;gap:clamp(28px,6vw,90px)}.video-copy p{font-size:17px;max-width:580px}.video-frame{width:100%;max-width:390px;margin-inline:auto;border-radius:20px;overflow:hidden;background:#071e3e;box-shadow:0 20px 55px #0b23402e;aspect-ratio:9/16}.video-frame .video{display:block;width:100%;height:100%;max-width:none;aspect-ratio:9/16;object-fit:contain;border-radius:0;background:#071e3e}@media(max-width:720px){.video-layout{grid-template-columns:1fr;gap:26px}.video-copy{order:1}.video-frame{order:2;width:min(100%,330px)}}
+
+/* Identidad corporativa V3 */
+body{font-family:Inter,Arial,Helvetica,sans-serif;color:#10243e}h1,h2,h3{letter-spacing:-.025em}.top{background:#fff;color:#102d50;box-shadow:0 3px 18px #09214312}.nav{min-height:92px}.brand-logo img{display:block;max-width:180px;max-height:72px;width:auto;height:auto;object-fit:contain}.links{gap:19px;font-size:14px;font-weight:600}.links a:hover{color:#1163ae}.nav-cta{background:#0b3769;color:white;padding:12px 18px;border-radius:7px;font-size:14px;font-weight:700;white-space:nowrap}.hero{background:linear-gradient(120deg,#061a34,#0d3260)}.hero-grid{min-height:570px}.hero img{height:570px}.eyebrow{color:#1e6ba9}.hero .eyebrow,.contact .eyebrow{color:#9bcefa}.section{padding:85px 0}.section h2{font-size:clamp(29px,3vw,40px)}.lead{max-width:700px;font-size:17px}.cards{gap:22px}.card{border-radius:14px;transition:transform .2s,box-shadow .2s}.card:hover{transform:translateY(-4px);box-shadow:0 18px 36px #12253d19}.card img{height:175px}.card .inside{padding:21px}.card a{display:inline-block;margin-top:8px}.experience{display:inline-block;margin:12px 0 18px;border-left:4px solid #1864a2;padding:8px 15px;font-size:20px;font-weight:800;color:#0d3b6e}.trust{background:#fff}.trust-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px}.trust-grid article{padding:30px;border:1px solid #e1e8f1;border-radius:15px;background:#f9fbfe}.trust-number{font-weight:800;font-size:27px;color:#1d70b4}.trust-grid h3{font-size:20px}.trust-grid p{color:#52657d}.sectors{background:#edf3f9}.sector-list{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.sector-list span{padding:13px 18px;background:white;border:1px solid #d9e5f1;border-radius:7px;font-weight:700}.faq-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px}.faq-items details{border-bottom:1px solid #dce4ed;padding:18px 4px}.faq-items summary{font-weight:750;cursor:pointer;list-style-position:outside}.faq-items p{color:#52657d}.social a{display:inline-flex;align-items:center;gap:9px}.social .social-ig{color:#c13584}.social .social-li{color:#0a66c2}.social .social-wa{color:#128c4b}.btn.green{gap:8px}.btn.green svg{flex:none}.footer-content{display:flex;align-items:center;gap:20px;justify-content:space-between}.footer-content img{width:130px;max-height:58px;object-fit:contain;background:white;border-radius:6px;padding:5px}@media(max-width:1100px){.nav{flex-wrap:wrap;padding-block:10px}.nav-cta{margin-left:auto}.links{gap:12px}}@media(max-width:850px){.nav{align-items:center;flex-direction:row}.links{order:3;width:100%;justify-content:center}.hero-grid{grid-template-columns:1fr}.hero img{height:320px}.trust-grid{grid-template-columns:1fr}.faq-layout{grid-template-columns:1fr;gap:20px}.section{padding:55px 0}}@media(max-width:520px){.brand-logo img{max-width:145px;max-height:58px}.nav-cta{font-size:12px;padding:10px}.links{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap;white-space:nowrap;padding-bottom:5px}.footer-content{flex-direction:column;text-align:center}.hero img{height:260px}}
+
+/* V4: imagenes seleccionadas y contacto flotante */
+.whatsapp-float{position:fixed;right:24px;bottom:24px;z-index:1000;display:flex;align-items:center;justify-content:center;width:62px;height:62px;border-radius:50%;background:#20c363;color:white;box-shadow:0 8px 28px #0b4c2870;border:3px solid white;transition:transform .2s ease,box-shadow .2s ease}.whatsapp-float:hover,.whatsapp-float:focus-visible{transform:translateY(-3px);box-shadow:0 12px 32px #0b4c2890}.whatsapp-float svg{width:31px;height:31px}.service-placeholder{height:175px;background:linear-gradient(135deg,#09284e,#195a93);color:#fff;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;text-align:center;padding:18px;font-size:12px;font-weight:800;letter-spacing:1.6px}.service-placeholder .service-symbol{font-size:52px;line-height:1;font-weight:400;color:#a5c9ec}.admin-placeholder{background:linear-gradient(135deg,#153756,#506f8a)}.foot .footer-content span{line-height:1.65}@media(max-width:520px){.whatsapp-float{right:16px;bottom:18px;width:56px;height:56px}.service-placeholder{height:175px}}
+
+/* V5: fotografias confirmadas y tarjetas alineadas */
+.cards{align-items:stretch}.card{display:flex;flex-direction:column}.card .inside{display:flex;flex-direction:column;flex:1}.card .inside p{flex:1}.card .inside a{margin-top:auto;padding-top:14px}.card img{display:block;object-position:center 42%}.card:nth-child(2) img{object-position:center 44%}.card:nth-child(3) img{object-position:center 28%}.card:nth-child(4) img{object-position:center 45%}
+@media(max-width:520px){.card img{height:205px}}
+
+/* V6 · Refinamiento visual y adaptación corporativa */
+:root{--navy:#081f3f;--blue:#1463a8;--line:#dce6f0}
+html{scroll-behavior:smooth;scroll-padding-top:115px}
+body{font-family:Inter,Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
+.top{border-bottom:1px solid #e9eef5}
+.nav{min-height:100px;gap:24px}
+.brand-logo{display:flex;align-items:center;flex-shrink:0}
+.brand-logo img{width:160px;max-width:160px;max-height:82px;height:auto;filter:drop-shadow(0 2px 2px #1232)}
+.nav-cta,.btn{transition:background .2s,transform .2s,box-shadow .2s}
+.nav-cta:hover,.btn:hover{transform:translateY(-2px);box-shadow:0 7px 18px #0a37602a}
+.hero{background:#071e3e;overflow:hidden}
+.hero-grid{grid-template-columns:43% 57%;min-height:490px;align-items:stretch}
+.hero-copy{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:48px 30px 48px 0}
+.hero-copy .actions{margin-top:20px}
+.hero img{height:490px;object-fit:cover;object-position:right center;display:block;min-width:0}
+.hero h1{font-size:clamp(38px,3.8vw,54px)}
+.hero p{font-size:17px;line-height:1.6}
+.card img{transition:transform .3s}.card:hover img{transform:scale(1.025)}
+.whatsapp-float{right:27px;bottom:25px;width:58px;height:58px;background:#25d366;border:0;box-shadow:0 7px 24px #052b2052;outline:1px solid #ffffffb0;outline-offset:3px}
+.whatsapp-float svg{width:30px;height:30px;display:block}
+.whatsapp-float:hover,.whatsapp-float:focus-visible{box-shadow:0 11px 30px #052b206e;transform:translateY(-3px)}
+.footer-content{min-height:115px;gap:28px}
+.footer-brand{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.footer-brand img{width:165px;max-height:86px;object-fit:contain;background:transparent;border-radius:0;padding:0;filter:brightness(0) invert(1);opacity:.94}
+.footer-brand span{font-size:11px;letter-spacing:.06em;color:#afc6df}
+.foot .footer-content>span{text-align:right;max-width:560px}
+.social a{transition:transform .2s,box-shadow .2s}.social a:hover{transform:translateY(-2px);box-shadow:0 7px 18px #0003}
+@media(max-width:1100px){.nav{gap:14px}.brand-logo img{width:135px}.links{gap:11px}.hero-grid{grid-template-columns:45% 55%}}
+@media(max-width:850px){.nav{min-height:88px}.hero-grid{grid-template-columns:1fr}.hero img{grid-row:1;height:auto;width:100%;aspect-ratio:2/1;object-fit:contain;object-position:center}.hero-copy{padding:32px 0 42px}.hero h1{font-size:clamp(34px,7vw,48px)}.footer-content{align-items:center}}
+@media(max-width:520px){.brand-logo img{width:115px;max-height:70px}.nav{gap:8px}.hero img{height:auto;aspect-ratio:2/1}.hero-copy{padding:26px 0 35px}.hero p{font-size:16px}.whatsapp-float{width:54px;height:54px;right:18px;bottom:20px}.footer-brand{align-items:center}.foot .footer-content>span{text-align:center}.footer-brand img{width:150px}}
+
+/* Versión 7: fotografía completa y pie corporativo */
+.hero{background:#071e3e}
+.hero .hero-grid{max-width:1320px;grid-template-columns:minmax(0,39%) minmax(0,61%);min-height:0;align-items:center;gap:0}
+.hero .hero-copy{padding:46px 28px 46px 0;min-width:0}
+.hero .hero-grid>img{width:100%;height:auto;aspect-ratio:2/1;object-fit:contain;object-position:center;min-width:0;display:block}
+.hero h1{font-size:clamp(36px,3.6vw,52px)}
+.foot{padding:26px 0;background:#06182f}
+.foot .footer-content{display:flex;align-items:center;justify-content:space-between;gap:32px;min-height:0}
+.foot .footer-brand{display:flex;flex-direction:row;align-items:center;gap:22px;flex-shrink:0}
+.foot .footer-logo-panel{width:155px;height:95px;background:#fff;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:10px 12px;box-shadow:0 3px 16px #0002}
+.foot .footer-logo-panel img{width:100%;height:100%;max-height:none;object-fit:contain;background:transparent;padding:0;border-radius:0;filter:none;opacity:1}
+.foot .footer-tagline{font-size:15px;line-height:1.5;letter-spacing:0;color:#e8f1ff;white-space:nowrap}
+.foot .footer-tagline strong{font-weight:750;color:white}
+.foot .footer-meta{display:flex;flex-direction:column;text-align:right;gap:4px;font-size:12px;line-height:1.5;color:#c8d7eb}
+.whatsapp-float{outline:none;border:0;background:#25d366;box-shadow:0 6px 22px #061d3450}
+@media(max-width:900px){.hero .hero-grid{grid-template-columns:1fr;max-width:100%}.hero .hero-grid>img{grid-row:1;width:100%;height:auto;aspect-ratio:2/1;object-fit:contain}.hero .hero-copy{padding:30px 0 44px}.foot .footer-content{flex-direction:column;align-items:center;gap:22px}.foot .footer-meta{text-align:center}}
+@media(max-width:520px){.hero .hero-grid>img{aspect-ratio:2/1}.hero .hero-copy{padding:24px 0 36px}.foot .footer-brand{flex-direction:column;gap:12px}.foot .footer-logo-panel{width:150px;height:90px}.foot .footer-tagline{text-align:center}.foot .footer-meta{font-size:11px}}
+
+
+/* V8 — encabezado aprobado: composición corporativa a ancho completo */
+.hero{background:linear-gradient(120deg,#06172f 0%,#08264c 55%,#061b37 100%);position:relative}
+.hero:before{content:"";position:absolute;left:0;top:0;bottom:0;width:13%;pointer-events:none;opacity:.5;background:linear-gradient(45deg,transparent 0 28%,#0b3566 28% 40%,transparent 40% 57%,#0a2e59 57% 69%,transparent 69%)}
+.hero .hero-grid{width:min(100%,1640px);max-width:none;grid-template-columns:minmax(0,40%) minmax(0,60%);min-height:440px;position:relative}
+.hero .hero-copy{padding:45px clamp(24px,4vw,64px) 45px clamp(24px,5vw,90px);z-index:1}
+.hero .hero-grid>img{width:100%;height:440px;aspect-ratio:auto;object-fit:cover;object-position:center center}
+.hero h1{font-size:clamp(37px,3.6vw,57px);margin-top:0}
+.hero .actions .btn{display:inline-flex;align-items:center;gap:8px}
+/* V8 — pie distribuido sin separadores, logo original en panel blanco */
+.foot{background:linear-gradient(110deg,#06172f,#071e3d);position:relative;overflow:hidden;padding:24px 0}
+.foot:before{content:"";position:absolute;inset:0 auto 0 0;width:150px;background:linear-gradient(45deg,transparent 20%,#0a2c57 20% 40%,transparent 40% 60%,#0b3566 60% 76%,transparent 76%);opacity:.7;pointer-events:none}
+.foot .footer-content{position:relative;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);align-items:center;gap:32px;min-height:104px}
+.foot .footer-brand{gap:24px}
+.foot .footer-logo-panel{width:160px;height:90px;flex:none;background:#fff;border-radius:9px}
+.foot .footer-meta{display:grid;grid-template-columns:1fr;gap:8px;text-align:right;font-size:13px;line-height:1.45}
+.whatsapp-float{position:fixed;right:26px;bottom:23px;width:58px;height:58px;z-index:1000;border-radius:50%;background:#25d366;color:white;display:flex;align-items:center;justify-content:center;box-shadow:0 7px 24px #07182c55;transition:transform .2s ease}
+.whatsapp-float:hover{transform:translateY(-3px)}
+@media(max-width:900px){.hero .hero-grid{grid-template-columns:1fr;min-height:0}.hero .hero-grid>img{grid-row:1;width:100%;height:auto;aspect-ratio:2/1;object-fit:contain}.hero .hero-copy{padding:35px 24px 42px}.foot .footer-content{grid-template-columns:1fr;gap:20px}.foot .footer-brand{justify-content:center}.foot .footer-meta{text-align:center}}
+@media(max-width:520px){.hero .hero-grid>img{aspect-ratio:2/1}.hero .hero-copy{padding:30px 22px 38px}.hero h1{font-size:38px}.foot .footer-brand{flex-direction:row;gap:12px}.foot .footer-logo-panel{width:128px;height:78px}.foot .footer-tagline{font-size:12px;text-align:left}.foot .footer-meta{font-size:11px}.whatsapp-float{right:17px;bottom:18px;width:55px;height:55px}}
+
+/* V9: pie corporativo equilibrado; conserva logo blanco y acentos azules. */
+@media(min-width:901px){
+.foot .footer-content{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(35px,5vw,85px);align-items:center;max-width:1500px;padding-right:72px}
+.foot .footer-brand{gap:18px}
+.foot .footer-meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;gap:clamp(12px,2.5vw,42px);text-align:center;font-size:clamp(11px,.82vw,13px);line-height:1.55}
+.foot .footer-meta span{display:block;text-align:center;max-width:none}
+}
+@media(max-width:900px){.foot .footer-meta{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 24px;text-align:center}.foot .footer-meta span{text-align:center}}
+
+/* V10: páginas de servicio con información específica */
+.detail h3{font-size:18px;margin:24px 0 10px;color:#0b3769}.detail .service-list{margin:0 0 20px;padding-left:22px;font-size:16px;line-height:1.6}.detail .service-list li{margin-bottom:7px}.detail p{font-size:16px;line-height:1.65}.detail .btn{margin-top:8px}.split .service-photo{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;display:block}@media(max-width:850px){.split .service-photo{max-height:460px}}
+
+/* V11: preserve vertical framing on security service detail */
+.service-photo.security-portrait{aspect-ratio:3/4;max-height:620px;object-fit:contain;background:#f3f6fa}
+
+/* V13: icono flotante WhatsApp mejorado con imagen proporcionada */
+.whatsapp-float{width:66px;height:66px;right:24px;bottom:24px;background:transparent;border:0;outline:none;outline-offset:0;box-shadow:0 8px 24px rgba(7,24,40,.28);border-radius:50%;overflow:hidden;transition:transform .2s ease,box-shadow .2s ease}
+.whatsapp-float img{display:block;width:100%;height:100%;object-fit:contain}
+.whatsapp-float:hover,.whatsapp-float:focus-visible{transform:translateY(-4px) scale(1.045);box-shadow:0 12px 28px rgba(7,24,40,.34)}
+.whatsapp-float:focus-visible{outline:3px solid #0b4171;outline-offset:3px}
+@media(max-width:640px){.whatsapp-float{width:60px;height:60px;right:17px;bottom:18px}}
+
+/* V14: iconos oficiales de redes sociales */
+.social{gap:12px;align-items:center}
+.social a{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:51px;padding:9px 15px;background:#fff;border:1px solid #e4eaf2;border-radius:10px;box-shadow:0 3px 12px #00000016;transition:transform .2s ease,box-shadow .2s ease}
+.social a:hover{transform:translateY(-3px);box-shadow:0 9px 20px #00000029}
+.social .social-icon{display:block;width:29px;height:29px;object-fit:contain;border-radius:7px;flex-shrink:0}
+.social a span{white-space:nowrap}
+@media(max-width:520px){.social{gap:9px}.social a{padding:8px 11px;min-height:47px;font-size:14px}.social .social-icon{width:25px;height:25px}}
+
+/* V15: icono de correo corporativo en boton de contacto */
+.contact .email-cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;transition:background .2s,transform .2s,border-color .2s}
+.contact .email-cta img{display:block;width:22px;height:22px;object-fit:contain;flex-shrink:0}
+.contact .email-cta:hover{transform:translateY(-2px)}
+
+/* V16: botones WhatsApp de hero y contacto con icono proporcionado */
+.hero .btn.green,.contact .btn.green{display:inline-flex;align-items:center;justify-content:center;gap:9px}
+.hero .btn.green .wa-cta-icon,.contact .btn.green .wa-cta-icon{display:block;width:27px;height:27px;object-fit:cover;border-radius:50%;flex-shrink:0}
+@media(max-width:520px){.hero .btn.green .wa-cta-icon,.contact .btn.green .wa-cta-icon{width:25px;height:25px}}
